@@ -1,0 +1,8 @@
+vlib work
+vlog 3.v 3_tb.v
+vsim -voptargs=+acc work.mod3_shift_register_tb
+add wave *
+
+run -all
+
+#quit -sim
